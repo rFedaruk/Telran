@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #1ABC9C;
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 
+    flex - технология для создания гибких блоков на странице
+        используется для позиционирования элементов на страницею
+    Элементы в одну строку можно расположить разными способами
+*/

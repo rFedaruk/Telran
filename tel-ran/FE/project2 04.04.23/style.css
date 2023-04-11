@@ -1,0 +1,46 @@
+* {
+    margin: 0;  /*внешний отступ*/
+    padding: 0; /*внутренний отступ*/
+    box-sizing: border-box; /*задает статический размер блока*/
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+width: calc(50% - 20px); /*ширина*/
+height: 300px; /*высота*/
+background-color: rgb(201, 164, 151);
+margin: 10px;
+background-size: contain; /*устанавливает размер img в процентном соотнощении к блоку*/
+background-repeat: no-repeat;
+}
+.item-1{
+    background-image: url(./images/AUDI.jpg); /*вставить фото для фона блока*/
+}
+.item-2{
+    background-image: url(./images/BMW.jpg); 
+}
+.item-3{
+    background-image: url(./images/MAYBACH.jpg);
+}
+.item-4{
+    background-image: url(./images/MERCEDES.jpg);
+}
+.item-5{
+    background-image: url(./images/OPEL.jpg);
+}
+.item-6{
+    background-image: url(./images/PORSHE.jpg); 
+}
+.item-7{
+    background-image: url(./images/VKSN.jpg);
+}
+.item-8{
+    background-image: url(./images/MAN.jpg); /*вставить фото для фона блока*/
+}
+/* 
+display: flex по улмолчанию распологает все элементы в одну строку игнорирую ширину
+flex-wrap: ширина элемента не игнорируется, правило размещения в одну строку игнорируется
+
+*/

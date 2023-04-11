@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item-1{
+    width: 50%;
+    height: 50px;
+    background-color: blanchedalmond;;
+}
+.item-2{
+    width: 50%;
+    height: 50px;
+    background-color: blanchedalmond;;
+    margin-top: 40px;
+}
+.item-2 p {
+    margin: auto;
+    text-align: center; /*центрирование текста в блоке*/
+
+}
+p{
+    width: 50%;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+/* .text-1{
+list-style-type:upper-alpha;
+}
+.text-1 li{
+    font-size: 28px;
+}
+.text-1 li:nth-child(odd) {
+    color:gold;
+}
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+}
+td{
+    font-size: 24px;
+}
+th{
+    font-size: 28px;
+}
+.color{
+    background-color: yellow;
+}
+tbody tr:nth-child(odd){
+background-color: aqua;
+} */
+
+
+
+/* border 1px solid black
+ 1px - толщина границы
+ solid - тип границы
+ black - цвет
+
+*/
+/* nth-child(n) - выбрать конкретный элемент в списке и изменить его */
+/* ul - по умолчанию disc(по умолчанию маркер) 
+1. dics - закрашенный кружок
+2. circle - пустотелый кружок
+3. decimal - цифры
+4. square - квадрат
+5. upper-roman - римские цифры
+6. nome - без маркера
+7. "" - внутри кавычек можем указать любой символ
+*/
